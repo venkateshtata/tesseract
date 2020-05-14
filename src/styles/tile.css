@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'roboto-light';
+    src: url(./fonts/Roboto-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+@font-face {
+    font-family: 'roboto-thin';
+    src: url(./fonts/Roboto-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+.div_tile{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tile_card{
+    margin: 50px;
+    
+}
+
+.tile{
+    align-content: center;
+    text-align: center;
+
+}
+.tile_btn{
+    background-color: #000;
+    color: white;
+    width: 80%;
+}
+
+.tile_btn:hover {
+    background-color: #007FFF;
+    color: white;
+    width: 80%;
+}
+
+.tile_title{
+    font-family: 'roboto-light';
+
+}
+
+.tile_text{
+    font-family: 'roboto-light';
+
+}
+
+
+.asd{
+    align-items: center;
+}

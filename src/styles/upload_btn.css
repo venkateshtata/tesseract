@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'roboto-light';
+    src: url(./fonts/Roboto-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+@font-face {
+    font-family: 'roboto-thin';
+    src: url(./fonts/Roboto-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+
+.upload_section{
+    text-align: center;
+    font-family: 'roboto-light';
+}
+
+.upload_btn{
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'roboto-light';
+}

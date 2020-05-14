@@ -1,0 +1,13 @@
+.card{
+    align-content: center;
+    text-align: center;
+}
+
+.cardd:hover{
+    background-color: black;
+    color: white;
+}
+
+.deck{
+    margin: 50px;
+}
