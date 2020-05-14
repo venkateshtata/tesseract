@@ -3,8 +3,7 @@ import {OBJModel} from 'react-3d-viewer'
 
 import '../styles/render-window.css';
 
-import droneB from "./droneB.obj";
-import dolphin from "./dolphin.obj";
+
 
 
 
