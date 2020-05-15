@@ -13,7 +13,7 @@ import '../styles/header.css';
 const Header = () => (
   <div>
   <Navbar className="nav" variant="dark">
-    <Navbar.Brand className="logo" href="#home">Euclid 3D</Navbar.Brand>
+    <Navbar.Brand className="logo" href="#home">Tesseract</Navbar.Brand>
     <Nav className="mr-auto">
 
         <NavDropdown  className="test" title="Print Materials" id="basic-nav-dropdown">
@@ -39,7 +39,7 @@ const Header = () => (
 
 
 
-      <Button className="nav_button" variant="outline-light">Upload and Order</Button>
+      <Button className="nav_button" variant="outline-light" href="http://localhost:3000/customcheckout" >Upload and Order</Button>
 
   </Navbar>
   </div>

@@ -16,14 +16,14 @@ import j6 from "./artifacts/j2.obj";
 import j7 from "./artifacts/j7.obj";
 import j8 from "./artifacts/j8.obj";
 
-import j1_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j1.png"
-import j2_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j2.png"
-import j3_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j3.png"
-import j4_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j4.png"
-import j5_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j5.png"
-import j6_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j6.png"
-import j7_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j7.png"
-import j8_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j8.png"
+import j1_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j1.png";
+import j2_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j2.png";
+import j3_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j3.png";
+import j4_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j4.png";
+import j5_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j5.png";
+import j6_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j6.png";
+import j7_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j7.png";
+import j8_img from "/home/peacock/Desktop/euclid3d/my-app/src/components/artifacts/j8.png";
 
 
 
@@ -57,7 +57,7 @@ function ArtifactItems() {
            <div>
                <p className="modal_price">Price: ₹1800</p>
                {/* <Button className="modal_btn" variant="outline-primary" onClick={()=>setModalIsOpen(false)} >Place Order</Button> */}
-               <Button className="modal_btn" onClick={()=>setModalIsOpen(false)} variant="outline-dark">Place Order</Button>
+               <Button className="modal_btn" href="http://localhost:3000/checkout" variant="outline-dark">Order</Button>
            </div>
         </div>
        </Modal>

@@ -1,0 +1,73 @@
+.form_style{
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 100px;
+}
+@font-face {
+    font-family: 'roboto-light';
+    src: url(./fonts/Roboto-Light.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+@font-face {
+    font-family: 'roboto-thin';
+    src: url(./fonts/Roboto-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url(./fonts/Roboto-Regular.ttf);
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+.form_button {
+    font-family: 'roboto-light';
+    background-color: #27AE60;
+    border-color: #27AE60;
+    height:50px;
+    width:150px;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    position:relative;
+    top:50%;
+    left:50%;
+}
+
+.modal_style {
+    margin: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.modal_btn {
+    font-family: 'roboto-regular';
+    margin: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+
+.modal_t {
+    font-family: 'roboto-light';
+    margin: 50px;
+    font-size: 40px;
+}
+
+.modal_para {
+    font-family: 'roboto-light';
+    margin: 20px;
+}
+
+.modal_price {
+    color: black;
+    font-family: 'roboto-light';
+    font-size: 30px;
+    margin: 10px;
+}

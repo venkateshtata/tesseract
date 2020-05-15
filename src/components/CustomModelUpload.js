@@ -15,7 +15,7 @@ const CustomModelUpload = () => (
     
     <h2>Print Custom 3D Model</h2>
 
-    <Button className="upload_btn" variant="outline-success">Print 3D</Button>
+    <Button className="upload_btn" variant="outline-success" href="http://localhost:3000/customcheckout" >Print 3D</Button>
     <HrTwo/>
 
     </div>

@@ -10,6 +10,8 @@ import Robotics from './components/Robotics';
 import FDM from './components/FDM';
 import SLA from './components/SLA';
 import SLS from './components/SLS';
+import CheckOut from './components/CheckOut';
+import CustomCheckout from './components/CustomCheckout';
 
 
 // ReactDOM.render(
@@ -29,6 +31,8 @@ const routing = (
       <Route path="/fdm" component={FDM}/>
       <Route path="/sla" component={SLA}/>
       <Route path="/sls" component={SLS}/>
+      <Route path="/customcheckout" component={CustomCheckout}/>
+      <Route path="/checkout" component={CheckOut}/>
     </div>
   </Router>
 )
